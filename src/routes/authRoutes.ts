@@ -7,7 +7,7 @@ import {
 
 const router = Router();
 
-router.post("/", defaultScreen);
+router.get("/", defaultScreen);
 router.post("/register", registerUser);
 router.post("/login", loginUser);
 
