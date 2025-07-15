@@ -10,7 +10,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://blog-it-fullstack-app.vercel.app/", // your frontend URL
+    origin: "https://blog-it-fullstack-app.vercel.app", // your frontend URL
     credentials: true,
   })
 );
