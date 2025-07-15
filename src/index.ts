@@ -10,9 +10,9 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // or whatever your frontend URL is
+    origin: "https://blog-it-fullstack-app.vercel.app/", // your frontend URL
     credentials: true,
-  }),
+  })
 );
 app.use(express.json());
 
